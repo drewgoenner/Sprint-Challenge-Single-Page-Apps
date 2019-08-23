@@ -14,7 +14,6 @@ export default function LocationsList() {
       })
       .then (resp => {
         const loc = resp.data.results;
-        console.log("Rick and Morty locations", loc);
         setLocs(loc)
       })
     

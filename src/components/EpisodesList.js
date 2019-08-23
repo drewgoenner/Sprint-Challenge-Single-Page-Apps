@@ -16,7 +16,6 @@ export default function EpisodesList() {
       })
       .then (resp => {
         const epis = resp.data.results;
-        console.log("Rick and Morty Episodes", epis);
         setEpisodes(epis)
       })
     

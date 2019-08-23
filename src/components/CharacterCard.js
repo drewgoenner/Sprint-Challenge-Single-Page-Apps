@@ -3,7 +3,7 @@ import { Card, Grid, Image, Icon } from 'semantic-ui-react';
 
 
 export default function CharacterCard(props) {
-  console.log(props);
+  
   return (
     
     <Grid.Column padded='horizontally' key={props.id}>

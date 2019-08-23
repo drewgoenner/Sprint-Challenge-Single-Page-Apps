@@ -15,7 +15,6 @@ export default function CharacterList() {
       })
       .then (resp => {
         const char = resp.data.results;
-        console.log("Rick and Morty Characters", char);
         setChars(char)
       })
     
